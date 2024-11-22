@@ -784,7 +784,7 @@ public final class PDAcroForm implements COSObjectable
                 }
                 else
                 {
-                    LOG.warn("missing /P entry (page reference) in a widget for field: " + field);
+                    LOG.warn("missing /P entry (page reference) in a widget for field: {}", field);
                     hasMissingPageRef = true;
                 }
             }
