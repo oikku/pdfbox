@@ -152,11 +152,6 @@ public enum CharStringCommand
      */
     public static CharStringCommand getInstance(int[] values)
     {
-        if (values[0] == 19 || values[0] == 20)
-        {
-            //TODO store the rest (hintmask and cntrmask) if we ever process these.
-            return getInstance(values[0]);
-        }
         switch (values.length)
         {
         case 1:
